@@ -1,0 +1,162 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #22044B;
+}
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #22044B;
+}
+
+.login {
+  width: 320px;
+  height: 450px;
+  padding: 30px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 55px;
+
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+
+.loginBtn {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  width: 270px;
+  cursor: pointer;
+}
+
+.rememberCheck {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  margin-left: 25px;
+  font-size: 10px;
+}
+
+.rememberCheck input {
+  margin-right: 6px;
+}
+
+.divider {
+  margin: 18px 0 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.authProviders {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 10px;
+  gap: 5px;
+}
+
+.social {
+  border: 2px solid black;
+  padding: 3px;
+  margin: 3px;
+  margin-left: 25px;
+  width: 270px;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.loginLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-right: 40px;
+  font-size: 14px;
+}
+
+.loginLinks a {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 12px;
+
+}
+
+.authProviders button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.authForm input[type="email"],
+.authForm input[type="password"] {
+  width: 280px;
+  height: 35px;
+  padding: 10px;
+  margin: 6px 0;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.passwordWrapper {
+  position: relative;
+  margin: 6px auto;
+}
+
+.passwordWrapper input[type="password"],
+.passwordWrapper input[type="text"] {
+  width: 280px;
+  height: 35px;
+  padding: 10px 35px 10px 10px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.togglePassword {
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  cursor: pointer;
+  color: #888;
+}
+
+.togglePassword:hover {
+  color: #000;
+}
